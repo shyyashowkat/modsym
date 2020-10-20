@@ -17,3 +17,11 @@ function bigImg(x) {
          $(this).attr('scrollamount',5);
     });
 }); 
+
+<script type="text/javascript"> 
+window.onload = function() {
+    window.setTimeout(
+        function() { window.scrollTo(0,0); },
+        10
+    );
+};
